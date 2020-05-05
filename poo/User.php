@@ -28,7 +28,7 @@ public function connexion($bdd){
         else
         {
             //Mauvais identifiant ou mauvais tout cours
-            header("location:index.php");
+            header("location:../index.php");
         }
     }
 
